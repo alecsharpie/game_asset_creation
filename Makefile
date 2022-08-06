@@ -53,3 +53,10 @@ pypi_test:
 
 pypi:
 	@twine upload dist/* -u $(PYPI_USERNAME)
+
+# ----------------------------------
+#      latent space game
+# ----------------------------------
+
+upload_sac_subset_images:
+	gsutil -m cp -r raw_data/sac_images_subset gs://www.latentspacegame.com/
