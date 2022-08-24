@@ -59,4 +59,4 @@ pypi:
 # ----------------------------------
 
 upload_sac_subset_images:
-	gsutil -m cp -r raw_data/sac_images_subset gs://www.latentspacegame.com/
+	gsutil -m cp -r raw_data/sac_images_captions_subset gs://latentspacemuseum/
